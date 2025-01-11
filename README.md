@@ -32,7 +32,9 @@ also there are 2 basic commands which you can use
 <img src="readme/cmds.png">
 
 <h1>Features</h1>
-- [x] Get the current order status
-- [x] Auto token refresh
-- [x] Notifications
-- [x] Get user info & machines info on preferred location
+<ul>
+<li>Get the current order status</li>
+<li>Auto token refresh</li>
+<li>Notifications</li>
+<li>Get user info & machines info on preferred location</li>
+</ul>
