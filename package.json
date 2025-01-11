@@ -1,0 +1,22 @@
+{
+  "name": "washin_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc & node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.10.5",
+    "@types/node-cron": "^3.0.11",
+    "axios": "^1.7.9",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "typescript": "^5.7.3"
+  }
+}
