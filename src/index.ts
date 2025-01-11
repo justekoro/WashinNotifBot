@@ -130,21 +130,6 @@ client.on(Events.MessageCreate, async (message) => {
         message.channel.send({
             embeds: [embed]
         })
-    } else if (message.content === "!fakefinish") {
-        // fake "embed finish"
-        const channel = await client.channels.fetch(process.env.NOTIFICATION_CHANNEL_ID as string) as GuildTextBasedChannel;
-        const embed = new EmbedBuilder()
-            .setTitle("Order almost ready")
-            .setDescription(`Your order on Dryer 10kg N°3 has ${Math.floor(Math.random() * 60 * 5)} seconds left. Get ready to pick it up!`)
-            .setColor("#00FF00")
-            .setFooter({
-                text: "Last API status time: ",
-            })
-            .setTimestamp(new Date().getTime());
-        channel.send({
-            content: "@everyone",
-            embeds: [embed]
-        })
     }
 })
 
